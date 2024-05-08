@@ -63,3 +63,30 @@ p.content-more{
 .footer{
     font-weight: 300;
 }
+@media only screen and (min-width: 501px) and (max-width: 767px){
+    p.content-more {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        margin-top: 0.2rem;
+
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 500px){
+    p.content{
+        margin-left: 5%;
+        line-height: 1.8rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    p.content-more{
+        margin-left: 5%;
+        line-height: 1.5rem;
+        padding-top: 3rem;
+    }
+    .nav-logo{
+        flex-direction: column;
+    }
+    .nav-items{
+        align-items: center;
+    }
+}
